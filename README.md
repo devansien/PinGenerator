@@ -1,7 +1,7 @@
 # Batch PIN Generator
 
 This project consists of:
-* A batch PIN generator for generating a batch of unique PINs.
+* A batch PIN generator for generating a batch of unique PINs
 
 ## Description:
 

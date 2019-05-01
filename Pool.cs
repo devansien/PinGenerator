@@ -33,16 +33,14 @@ namespace PinGenerator
 
         public List<string> GetSortedNumberPool(List<string> numberList)
         {
-            bool isRepeated = false;
-            bool isIncreasing = false;
             List<string> sortedNumberList = new List<string>();
 
             for (int i = 0; i < numberList.Count; i++)
             {
-                isRepeated = CheckRepeatedDigits(numberList[i]);
+                bool isRepeated = CheckRepeatedDigits(numberList[i]);
                 if (!isRepeated)
                 {
-                    isIncreasing = CheckIncreasingDigits(numberList[i]);
+                    bool isIncreasing = CheckIncreasingDigits(numberList[i]);
                     if (!isIncreasing)
                         sortedNumberList.Add(numberList[i]);
                 }
