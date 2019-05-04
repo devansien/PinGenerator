@@ -14,7 +14,6 @@ namespace PinGenerator
             this.pins = pins;
         }
 
-
         public List<string> GetNewBatch()
         {
             Random rand = new Random();

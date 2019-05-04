@@ -15,7 +15,6 @@ namespace PinGenerator
             this.max = max;
         }
 
-
         public List<string> GetRawNumberPool()
         {
             string number = null;
@@ -29,7 +28,6 @@ namespace PinGenerator
 
             return numberList;
         }
-
 
         public List<string> GetSortedNumberPool(List<string> numberList)
         {
@@ -49,7 +47,6 @@ namespace PinGenerator
             return sortedNumberList;
         }
 
-
         private bool CheckRepeatedDigits(string number)
         {
             bool flag = false;
@@ -68,7 +65,6 @@ namespace PinGenerator
 
             return flag;
         }
-
 
         private bool CheckIncreasingDigits(string number)
         {
