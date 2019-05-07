@@ -5,6 +5,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <Authors>devansien</Authors>
     <Company>Ansien</Company>
+    <Product>Pin Generator</Product>
+    <Description>Batch PIN generator</Description>
   </PropertyGroup>
 
 </Project>
